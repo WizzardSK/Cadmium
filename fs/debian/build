@@ -7,6 +7,6 @@ DESTDIR=$1
 
 source "$CADMIUMROOT/config"
 
-debootstrap --arch="$ARCH_DEB" "$SUITE" "$DESTDIR" https://deb.debian.org/debian/
+debootstrap --components=main,restricted,universe,multiverse --arch="$ARCH_DEB" "$SUITE" "$DESTDIR" http://ports.ubuntu.com/ubuntu-ports/
 
 chroot "$DESTDIR" apt update
