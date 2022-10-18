@@ -11,16 +11,16 @@ fi
 
 # RootFS type
 # One of: debian, void, void-musl, arch
-ROOTFS=arch
+ROOTFS=debian
 
 # FS type
 # f2fs, ext4
-FILESYSTEM=f2fs
+FILESYSTEM=ext4
 
 # Debian and debian-ish distro suite (Not for arch)
 # sid, testing, stable
 # impish, hirsute, focal
-SUITE=sid
+SUITE=kinetic
 
 # Which kernel should be built. disables firmware
 # kernelorg: from kernel.org libre: from linux-libre.fsfla.org
