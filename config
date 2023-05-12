@@ -20,7 +20,7 @@ FILESYSTEM=ext4
 # Debian and debian-ish distro suite (Not for arch)
 # sid, testing, stable
 # impish, hirsute, focal
-SUITE=kinetic
+SUITE=lunar
 
 # Which kernel should be built. disables firmware
 # kernelorg: from kernel.org libre: from linux-libre.fsfla.org
